@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../components/Card'
 
 function Approach() {
   return (
@@ -25,6 +26,10 @@ Binance <br />
 Facebook <br />
 Linkedin</p>
             </div>
+
+        </div>
+        <div className='border-t-[1px] border-zinc-800'>
+         <Card/>      
 
         </div>
 
