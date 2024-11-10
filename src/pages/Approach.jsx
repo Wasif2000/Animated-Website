@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../components/Card'
 
+
 function Approach() {
   return (
     <div className='bg-[#cdea68] w-full rounded-lg'>
@@ -29,9 +30,11 @@ Linkedin</p>
 
         </div>
         <div className='border-t-[1px] border-zinc-800'>
+        
          <Card/>      
-
+         
         </div>
+      
 
     </div>
   )
