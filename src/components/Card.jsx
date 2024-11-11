@@ -14,7 +14,7 @@ const Card = () => {
           </button>
         </div>
         <div className='w-[50%]'>
-          <img src={aa} alt="" className='p-8 rounded-xl' />
+          <img src={aa} className='p-8 rounded-lg' />
         </div>
       </div>
     </>
