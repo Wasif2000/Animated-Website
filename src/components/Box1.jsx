@@ -2,6 +2,7 @@ import React from 'react';
 import { LiaBullseyeSolid } from "react-icons/lia";
 import aa from '../images/board1.png'
 import bb from '../images/board2.png'
+import cc from '../images/William.png'
 
 
 export const Box1 = () => {
@@ -35,7 +36,83 @@ export const Box1 = () => {
         </div>
       </div>
       <div>
-        <button></button>
+        <button className='uppercase px-3 py-2 rounded-3xl border border-black mx-[500px] my-[90px] hover:text-white hover:bg-black transition duration-300'>view all case studies</button>
+      </div>
+      <div >
+        <h1 className='text-[3rem] font-bold px-[60px] '>Clients’ reviews</h1>
+      </div>
+      <div className='border-t-[1px] border-black  flex'>
+        <div className='w-[25%] px-6 py-4'><p className=''> Karman Ventures</p></div>
+        <div className='w-[25%]'>
+          <p className='pt-4 '>Services</p>
+          <div className='mt-[70px]'>
+          <button className='border border-black rounded-3xl px-3 hover:bg-black hover:text-white '>investor deck</button> <br /><br />
+          <button className='border border-black rounded-3xl px-3 hover:bg-black hover:text-white '>sales deck</button>
+          </div>
+          </div>
+          <div className='w-[50%]'>
+            <p className='pt-4'>William Barnes</p>
+            <img src={cc} alt="" width={100} className='rounded-xl mt-[60px]'   />
+            <div className='w-[350px] pt-7 tracking-normal'>
+            <p>They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5</p>
+            </div>
+          </div>
+      </div>
+      <div className='border-t-[1px] border-b-[1px] border-black'>
+       <div className='flex justify-between px-7 py-2' >
+        <h2 className='cursor-pointer hover:underline capitalize'> planetly</h2>
+        <h2 className='cursor-pointer hover:underline capitalize'>nina walloch</h2>
+        <h2 className='cursor-pointer hover:underline uppercase'>read</h2>
+        </div>
+      </div>
+      <div className='border-b-[1px] border-black'>
+       <div className='flex justify-between px-7 py-2' >
+        <h2 className='cursor-pointer hover:underline capitalize'> planetly</h2>
+        <h2 className='cursor-pointer hover:underline capitalize'>nina walloch</h2>
+        <h2 className='cursor-pointer hover:underline uppercase'>read</h2>
+        </div>
+      </div>
+      <div className='border-b-[1px] border-black'>
+       <div className='flex justify-between px-7 py-2' >
+        <h2 className='cursor-pointer hover:underline capitalize'> planetly</h2>
+        <h2 className='cursor-pointer hover:underline capitalize'>nina walloch</h2>
+        <h2 className='cursor-pointer hover:underline uppercase'>read</h2>
+        </div>
+      </div>
+      <div className='border-b-[1px] border-black'>
+       <div className='flex justify-between px-7 py-2' >
+        <h2 className='cursor-pointer hover:underline capitalize'> planetly</h2>
+        <h2 className='cursor-pointer hover:underline capitalize'>nina walloch</h2>
+        <h2 className='cursor-pointer hover:underline uppercase'>read</h2>
+        </div>
+      </div>
+      <div className='border-b-[1px] border-black'>
+       <div className='flex justify-between px-7 py-2' >
+        <h2 className='cursor-pointer hover:underline capitalize'> planetly</h2>
+        <h2 className='cursor-pointer hover:underline capitalize'>nina walloch</h2>
+        <h2 className='cursor-pointer hover:underline uppercase'>read</h2>
+        </div>
+      </div>
+      <div className='border-b-[1px] border-black'>
+       <div className='flex justify-between px-7 py-2' >
+        <h2 className='cursor-pointer hover:underline capitalize'> planetly</h2>
+        <h2 className='cursor-pointer hover:underline capitalize'>nina walloch</h2>
+        <h2 className='cursor-pointer hover:underline uppercase'>read</h2>
+        </div>
+      </div>
+      <div className='border-b-[1px] border-black'>
+       <div className='flex justify-between px-7 py-2' >
+        <h2 className='cursor-pointer hover:underline capitalize'> planetly</h2>
+        <h2 className='cursor-pointer hover:underline capitalize'>nina walloch</h2>
+        <h2 className='cursor-pointer hover:underline uppercase'>read</h2>
+        </div>
+      </div>
+      <div className='border-b-[1px] border-black'>
+       <div className='flex justify-between px-7 py-2' >
+        <h2 className='cursor-pointer hover:underline capitalize'> planetly</h2>
+        <h2 className='cursor-pointer hover:underline capitalize'>nina walloch</h2>
+        <h2 className='cursor-pointer hover:underline uppercase'>read</h2>
+        </div>
       </div>
     </section>
   );
